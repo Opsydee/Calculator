@@ -8,7 +8,7 @@ app.listen(port);
 const array_of_week = new Date().getDay();
 const days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 app.get('/api', (req, res) => {
-    const slackName = req.query.slack_name;
+    const slackName = req.query.ojedokun opeyemi;
     const track = req.query.track;
     const utcTime = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
     const currentDay = days_of_week[array_of_week];
