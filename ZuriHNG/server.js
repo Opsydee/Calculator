@@ -17,7 +17,7 @@ app.get('/api', (req, res) => {
     const statusCode = 200;
 
     const object_json = {
-        slack_name: slackName,
+        ojedokun_opeyemi: slackName,
         track: track,
         utc_time: utcTime,
         current_day:currentDay,
