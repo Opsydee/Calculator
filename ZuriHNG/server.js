@@ -1,8 +1,8 @@
 const express = require('express');
 
-const port = process.env.port | 8000;
-const app = express();
 
+const app = express();
+const port = process.env.port || 8000;
 app.listen(port);
 
 const array_of_week = new Date().getDay();
